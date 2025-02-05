@@ -50,7 +50,7 @@ const ContactForm = ({ onAddContact }) => {
 
                 <div className={s.inputWrapper}>
                     <label htmlFor={numberId}>Number</label>
-                    <Field type="tel" name="phone" id={numberId} />
+                    <Field type="num" name="phone" id={numberId} />
                     <ErrorMessage className={s.error} name="phone" component="p" />
                 </div>
 
